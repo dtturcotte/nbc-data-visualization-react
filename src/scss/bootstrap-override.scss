@@ -1,0 +1,33 @@
+.bg-light {
+	background-color: #efefef !important;
+	color: black;
+}
+.bg-dark {
+	color: white;
+}
+.bg-red-gradient {
+	background-color: #4c4c4c;
+	background-image: linear-gradient(90deg, rgba(57, 194, 218, 0), #f000275e 35%, rgba(57, 194, 218, 0));
+	color: white;
+}
+.bg-dark-gradient {
+	background-image: radial-gradient(#474548, #2a282b);
+	color: white;
+}
+
+.card {
+	text-align: center;
+	img {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.card-body {
+		color: black;
+	}
+	&.min-height-lg {
+		min-height: 360px;
+	}
+	&.min-height-sm {
+		min-height: 120px;
+	}
+}

@@ -1,0 +1,19 @@
+@import './colors.scss';
+
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100%;
+	background-color: #29292a;
+	background-image: radial-gradient(#29292a, #202020);
+	box-shadow: 0 4px 2px -2px rgb(0 0 0 / 20%);
+	.navbar-nav {
+		margin-left: auto;
+		text-transform: capitalize;
+	}
+	.logo {
+		width: 50px;
+	}
+}
