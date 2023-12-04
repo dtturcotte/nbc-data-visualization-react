@@ -1,6 +1,23 @@
 # NBC Data Visualization React App
 
-## Scripts
+---
+
+## App overview
+
+Simulates a react real-time political data visualization dashboard that consumes data from various sources and technologies.
+
+---
+
+## App features
+
+-   UI
+    -   React app
+    -   D3 charts
+    -   Map Libre
+
+---
+
+## Running the app
 
 ### Install Node modules
 
